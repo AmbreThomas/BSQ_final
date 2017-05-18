@@ -29,7 +29,7 @@ OBJ_PATH = obj
 OBJ_NAME = $(SRC_NAME:.c=.o)
 OBJ = $(addprefix $(OBJ_PATH)/, $(OBJ_NAME))
 
-CC = gcc
+#CC = gcc
 CFLAGS = -Wall -Werror -Wextra
 
 INCLUDES_PATH = includes
